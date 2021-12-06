@@ -137,7 +137,6 @@ h2 {
 .quote-area {
     background-color: #e5e7eb;
     padding: 96px;
-    padding-bottom: 96px;
 }
 
 .quote {
@@ -151,4 +150,28 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     text-align: end;
+}
+
+.call-to-action {
+    padding: 20px 40px;
+    background-color: #3882f6;
+    display: flex;
+    gap: 50px;
+    margin: 96px;
+    border-radius: 10px;
+}
+
+.action-text {
+    flex: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9faf8;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-button {
+
 }
