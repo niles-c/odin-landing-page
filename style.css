@@ -133,3 +133,22 @@ h2 {
     border: 4px solid #3882f6;
     border-radius: 20px;
 }
+
+.quote-area {
+    background-color: #e5e7eb;
+    padding: 96px;
+    padding-bottom: 96px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.originator {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+}
