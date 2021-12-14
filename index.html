@@ -5,85 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="redesign-style.css">
+    <title>Welcome to Birders, Inc.</title>
 </head>
 
 <body>
-    <div class="hero-container">
-        <div class="hero">
-            <div class="header">
-                <div class="logo">Birders, Inc. Logo</div>
-                <ul>
-                    <li><a href="">Message Boards</a></li>
-                    <li><a href="">Member Center</a></li>
-                    <li><a href="">About Us</a></li>
-                </ul>
-            </div>
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Step up your bird watching game.</h1>
-                    <div class="hero-subtext">Our tips and tricks for birdwatching will help you spot
-                        that
-                        slippery sparrow or elusive eagle. Sign up and become a member today!</div>
-                    <button class="hero-button">Sign up</button>
-                </div>
-                <div class="image">
-                    <img class="hero-image"
-                        src="https://cdn.pixabay.com/photo/2017/05/08/13/15/spring-bird-2295434_960_720.jpg"
-                        alt="bird on a tree branch">
-                </div>
-            </div>
+    <nav class="navbar">
+        <a href="#title">
+            <img class="logo" src="https://cdn.pixabay.com/photo/2017/05/08/13/15/spring-bird-2295434_960_720.jpg"
+                alt="bird on a tree branch">
+        </a>
+        <ul class="nav-links">
+            <li><a href="">Member Center</a></li>
+            <li><a href="">Message Boards</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+    </nav>
+    <div id="title" class="hero">
+        <div class="hero-text">
+            <h1>Step up your bird watching game</h1>
+            <p>Our tips and tricks for birdwatching will help you spot that slippery sparrow or elusive eagle. Sign up
+                and become a member today!</p>
+            <button class="hero-sign-up">Sign up</button>
         </div>
+        <img class="hero-image" src="https://cdn.pixabay.com/photo/2017/05/08/13/15/spring-bird-2295434_960_720.jpg"
+            alt="bird on a tree branch">
     </div>
-    <div class="links-container">
-        <h2>Helpful resources</h2>
-        <div class="links">
-            <div class="link-box">
-                <img class="link-image"
+    <div class="guides">
+        <h1 class="guides-title">Popular birdwatching guides</h1>
+        <div class="guides-container">
+            <div class="guide">
+                <img class="guide-image"
                     src="https://cdn.pixabay.com/photo/2017/03/22/10/30/binoculars-2164526_960_720.jpg"
                     alt="binoculars">
-                <div class="link-subtext">Best binoculars for birders</div>
+                <h2 class="guide-title">Best binoculars for birders</h2>
+
             </div>
-            <div class="link-box">
-                <img class="link-image"
+            <div class="guide">
+                <img class="guide-image"
                     src="https://cdn.pixabay.com/photo/2021/02/12/17/35/red-bellied-woodpecker-6009164_960_720.jpg"
                     alt="bird hanging on a birdfeeder">
-                <div class="link-subtext">These feeders bring all the birds to the yard</div>
+                <h2 class="guide-title">These feeders bring all the birds to the yard</h2>
+
             </div>
-            <div class="link-box">
-                <img class="link-image" src="https://cdn.pixabay.com/photo/2016/11/16/07/58/budgie-1828345_960_720.jpg"
+            <div class="guide">
+                <img class="guide-image" src="https://cdn.pixabay.com/photo/2016/11/16/07/58/budgie-1828345_960_720.jpg"
                     alt="bird standing on a camera">
-                <div class="link-subtext">Wildlife photography best practices</div>
+                <h2 class="guide-title">Wildlife photography best practices</h2>
             </div>
-            <div class="link-box">
-                <img class="link-image" src="https://cdn.pixabay.com/photo/2021/11/06/17/21/bird-6773865_960_720.jpg"
+            <div class="guide">
+                <img class="guide-image" src="https://cdn.pixabay.com/photo/2021/11/06/17/21/bird-6773865_960_720.jpg"
                     alt="bird in a bush">
-                <div class="link-subtext">The definitive bird watching FAQ</div>
+                <h2 class="guide-title">The definitive bird watching FAQ</h2>
+
             </div>
         </div>
     </div>
     <div class="quote-container">
-        <div class="quote-content">
-            <div class="quote">Every day, birds that are defined as common are overlooked. However, as you immerse
-                yourself in the world of birdwatching, you come to appreciate the beauty in the common species as well
-                as the scarcer ones.</div>
-            <div class="originator">-Joe Harkness, Bird Therapy</div>
-        </div>
+        <div class="quote">Every day, birds that are defined as common are overlooked. However, as you immerse
+            yourself in the world of birdwatching, you come to appreciate the beauty in the common species as well
+            as the scarcer ones.</div>
+        <div class="source">-Joe Harkness, Bird Therapy</div>
     </div>
     <div class="CTA-container">
-        <div class="CTA-content">
-            <div class="CTA-text">
-                <div class="CTA-header">Become a Birders, Inc., member today!</div>
-                <div class="CTA-subtext">The largest online community of birders is waiting for you.</div>
-            </div>
-            <button class="CTA-button">Sign up</button>
+        <div class="CTA-text">
+            <h2>Become a member today!</h2>
+            <p>Calling all beginners, seasoned pros, and everyone inbetween! Birders, Inc., is the largest online
+                community of birders. Explore your passion alongside thousands of fellow enthusiasts.</p>
         </div>
+        <button class="CTA-sign-up">Sign up</button>
     </div>
     <div class="footer">
         Copyright © The Odin Project 2021
     </div>
-
 </body>
 
 </html>
