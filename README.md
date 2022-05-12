@@ -2,7 +2,7 @@
 
 This is my solution to the Landing Page project on The Odin Project.
 
-[See solution here](https://niles-c.github.io/odin-landing-page/)
+[See solution here](https://niles-c.github.io/portfolio-landing-page/)
 
 ## Table of Contents
 
